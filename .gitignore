@@ -1,0 +1,39 @@
+# Dependencias
+/vendor
+/node_modules
+
+# Entorno y llaves
+/.env
+/.env.*
+/.env
+/.env.backup
+/storage/*.key
+
+# Archivos subidos (si aplican)
+public/uploads
+public/scorm
+
+# Enlaces y compilación frontend
+/public/hot
+/public/storage
+
+# Cachés y logs (mantén los .gitignore de Laravel)
+storage/logs/*
+!storage/logs/.gitignore
+storage/framework/*
+!storage/framework/.gitignore
+
+# Cache de bootstrap (mantener placeholder)
+bootstrap/cache/*
+!bootstrap/cache/.gitignore
+
+# Herramientas locales
+Homestead.yaml
+Homestead.json
+/.idea
+/.vscode
+npm-debug.log
+yarn-error.log
+
+# Archivos pesados accidentales
+*.zip
